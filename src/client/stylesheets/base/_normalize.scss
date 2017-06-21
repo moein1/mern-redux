@@ -1,0 +1,32 @@
+//@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+p {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: $main-color;
+    font-size: 160%;
+    line-height: $line-height;
+    text-indent: 2%;
+    padding: 3%;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 175%;
+    line-height: $line-height;
+    font-weight: 500;
+    color: $main-color;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0;
+}
+
+a {
+    color: $main-color;
+    text-decoration: none;
+    font-weight: bold;
+    &:hover{
+        color:#c3d7df;
+    }
+}
+ul{
+    list-style: none;
+}
