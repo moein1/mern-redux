@@ -15,7 +15,7 @@ class Brand extends Component{
 
     render(){
         return(
-            <div onClick={this.getStores.bind(this)}>{this.state.brandName}</div>
+            <div className="brand" onClick={this.getStores.bind(this)}>{this.state.brandName}</div>
         )
     }   
 }

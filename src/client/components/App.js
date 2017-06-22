@@ -1,10 +1,3 @@
-/**
- * OBJECTIVES
- * There are only two requirements:
- * 1) List all the stores (from the API).
- * 2) Edit a store name (via the API).
- */
-
 import React from 'react';
 import Store from './store';
 import Brand from './brand';
@@ -36,7 +29,7 @@ class App extends React.Component {
       <div>
         <section className="half">        
             <h3>Brands</h3>
-            <ul className="container">
+            <ul>
               {this.props.brands.map(brand => (
                 <li key={brand.id}><Brand  getStores={this.getStores.bind(this)} selectedBrand={brand}/></li>
               ))}

@@ -1,0 +1,26 @@
+input{
+    font-family: sans-serif;
+    font-size: 120%;
+    margin: 4px;
+    border-radius: $border-radius;
+    height: 33px;
+    color: $main-color;
+    background: lighten(#ccc,10%);
+    box-shadow: 2px 2px 5px #ccc;
+    padding-left: 5px;
+    }
+
+    button {
+    font-size: 120%;
+    line-height: $line-height;
+    border-radius: $border-radius;
+    margin: 4px;
+    padding: 2px 4px 2px 4px;
+    color:$primary-color;
+    cursor: pointer;
+    background: darken($secondary-color,10%);
+    transition: background-color ease-in-out .3s;
+    &:hover{
+        background: darken($secondary-color,20%);
+    }
+}
